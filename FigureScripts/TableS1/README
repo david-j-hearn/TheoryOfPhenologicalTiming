@@ -1,0 +1,1 @@
+To make Table 4, first run the scripts to generate Figure 5, then open an R session and source the file makeMCMCTable.txt.R.

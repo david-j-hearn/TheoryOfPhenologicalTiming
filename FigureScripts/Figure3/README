@@ -1,0 +1,6 @@
+To make Figure 3, run 'sh makeFigures.sh' from the command line, or from within an R session, use the source command to run the code in makeFigure3_runMCMCViaSimulatedDataWithKnownParameters.txt.R. 
+
+The data for the specific run used to generate Figure 3 in the manuscript is in the file figureMCMCOutput_88_235_78_518.txt. A similarly formatted file for a different run can be obtained by running 'sh makeFigures.sh', then running the extractMCMCResults.pl on the screen output that is redirected to a file 'screenOutput.txt'
+
+Different MCMC runs may produce different outputs depending on the output from the maximum likelihood initialization and on how long the MCMC is run. The particular values used in the figure were based on a run that converged fairly quickly after only around 10000 iterations. Other runs may need longer or may need multiple attempts. 
+

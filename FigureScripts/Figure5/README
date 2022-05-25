@@ -1,0 +1,10 @@
+To generate the data for TableS1 and create Figure 5, perform the following steps:
+
+From a Linux box, edit runMCMCInParallel.ProcBackground.pl to specify the number of processors available on your machine, then run the script from the command line. Use nohup, since it will take a while to run (could be a few days!).
+The script runMCMCInParallel.ProcBackground.pl simply sets up a set of commands that call runModelFit_SplitCentury_MCMC.R for each species. You can do this directly if you prefer.
+Once the MCMC runs are finished, run extractMCMCResults.pl to format and clean the output of the MCMC for later steps 
+Then run sh makeFigures.sh from the command line. This assumes that RScript is in your $PATH
+The makeFigures.sh script simply calls create_PDFGraph.txt.R, which you can 'source' from an R session if preferred. 
+The create_PDFGraph.txt.R script is set to make 'PrimulaMeadia.PosteriorAverage.PDFDecomposition.pdf', which is the source of Figure 5. You can alter this script to make analogous figures for any of the other species, but note that the graphics are set to work for Primula and not necessarily for the other species!
+
+Since running the MCMC takes a while (several days), the cleaned output from the MCMC runs used in the manuscript are provided in the ../MCMCReplicates folder. These are the *Cleaned* files. Therefore, you can skip to the run sh makeFigures.sh step if you prefer.

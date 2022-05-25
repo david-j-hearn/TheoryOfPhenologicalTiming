@@ -1,0 +1,1 @@
+The MCMC trace files used for Table S1 and Fig. 5 are tarred and zipped in the MCMCTraceFiles.tgz archive file. To extract the text trace files, run 'tar zxvf MCMCTraceFiles.tgz', or use a different archive extraction program.

@@ -1,0 +1,1 @@
+This folder contains the raw data files used for analyses of the spring ephemeral species. The original data are from iDigBio. iDigBio ID's for each specimen are provided. The raw files are in a tarred, gzipped archive file. Please use 'tar zxvf ' to extract files from the archive or use some other archive extraction program.

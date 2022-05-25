@@ -1,0 +1,22 @@
+This folder provides a set of R functions that implement the phenology theory
+
+#Adjust herbarium collection data for latitudinal and sampling size biases:
+	biasCorrectionScripts.txt.R
+
+#Detect and remove potentially erroneous outlier data:
+	removeOutliers.txt.R
+
+#create a figure that illustrates the output of MCMC runs. Must run MCMC first. (See README in the Figure5 folder.):
+	createInferenceFigure.txt.R
+
+#various helper functions:
+	helperFunctions.txt.R
+
+#methods to implement Bayesian MCMC for the theory of phenology:
+	inferPhenology_BayesianMCMC.txt.R
+
+#methods to simulate phenological data:
+simulatePhenology_edit.txt.R
+
+#methods to generate probability density functions associated with the theory of phenological timing:
+	theoryOfPhenology.txt.R

@@ -1,0 +1,19 @@
+NB: Be sure to unzip the .tgz archive files in the Data and MCMCReplicates directories prior to using the scripts to generate figures!
+
+The directories in this folder provide the following:
+
+Figure1: The scripts needed to generate Figure 1
+Figure2: The scripts needed to generate Figure 2
+Figure3: The scripts needed to generate Figure 3
+Figure4: The scripts needed to generate Figure 4
+Figure5: The scripts needed to generate Figure 5
+Figure6: The scripts needed to generate Figure 6
+
+TableS1: Script used to generate Table S1. Note that the script relies on the output generated for Figure 5
+
+SharedCode: R code files with functions used to carry out analyses and generate some graphics
+
+Data: The raw data that includes collection times and latitudes of collection
+
+MCMCReplicates: Output of the MCMC runs with the specific trace files used to generate figures in the manuscript
+
