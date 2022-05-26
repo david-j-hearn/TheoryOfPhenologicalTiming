@@ -97,8 +97,8 @@ hist(observations$observations, probability=T, add=T,border=rgb(0,0,0,0.5), col=
 
 message("inset plot 2: P_N_t")
 x=850:950
-plot(x,Nts[x],type="l", ylab=paste("Probability of individuals\nin phenophase at day", t), xlab=paste("Individuals in phenophase"), col=cols[8])
-polygon(x, Nts[x], col = cols.t[8], border=NA)
+plot(100*x/N_Pt,Nts[x],type="l", ylab=paste("Probability of percentage\nin phenophase at day", t), xlab=paste("Percentage of population in phenophase"), col=cols[8])
+polygon(100*x/N_Pt, Nts[x], col = cols.t[8], border=NA)
 
 #make the plot of the duration of phenophase at the population level
 message("Making ranges PDF")
