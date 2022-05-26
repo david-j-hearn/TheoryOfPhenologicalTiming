@@ -16,7 +16,7 @@ This folder provides a set of R functions that implement the phenology theory
 	inferPhenology_BayesianMCMC.txt.R
 
 #methods to simulate phenological data:
-simulatePhenology_edit.txt.R
+	simulatePhenology_edit.txt.R
 
 #methods to generate probability density functions associated with the theory of phenological timing:
 	theoryOfPhenology.txt.R
